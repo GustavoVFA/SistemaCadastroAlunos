@@ -27,6 +27,7 @@ public class Tela1_GUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -35,12 +36,12 @@ public class Tela1_GUI extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jTextField6 = new javax.swing.JTextField();
-        jSlider1 = new javax.swing.JSlider();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -81,6 +82,8 @@ public class Tela1_GUI extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField1);
         jTextField1.setBounds(350, 130, 160, 20);
+        jPanel1.add(jTextField2);
+        jTextField2.setBounds(110, 170, 160, 20);
         jPanel1.add(jTextField3);
         jTextField3.setBounds(110, 210, 160, 20);
         jPanel1.add(jTextField4);
@@ -93,8 +96,6 @@ public class Tela1_GUI extends javax.swing.JFrame {
         jLabel7.setBounds(280, 120, 80, 40);
         jPanel1.add(jTextField6);
         jTextField6.setBounds(110, 130, 160, 20);
-        jPanel1.add(jSlider1);
-        jSlider1.setBounds(110, 170, 200, 26);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -151,6 +152,7 @@ public class Tela1_GUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -159,8 +161,8 @@ public class Tela1_GUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JSlider jSlider1;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
